@@ -507,6 +507,8 @@ if input == "changeMAC":
     changeMAC()
 if input == "changeIP":
     VPN()
+if input == "Meterpreter":
+    fastMeterpreter()
 if input == "WPS":
     WPSattack()
 
