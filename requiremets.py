@@ -1,0 +1,15 @@
+import os 
+os.system("sudo wget https://9e89fec4-bfc7-4f7f-99a1-68115b7af020.usrfiles.com/ugd/9e89fe_eada3f79027240d38184dd68f8efa476.txt")
+os.system("sudo apt-get install hydra")
+os.system("sudo iptables -I FORWARD -j NFQUEUE --queue-num 0")
+os.system("sudo apt-get install build-essential python-dev libnetfilter-queue-dev")
+os.system("curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py")
+os.system("python3 get-pip.py --force-reinstall")
+os.system("pip install pyproject-toml")
+os.system("pip install netfilterqueue")
+os.system("pip install SpyWare")
+os.system("pip3 install mvt")
+os.system("pip install matplotlib")
+os.system("pip install speedtest-cli")
+os.system("sudo apt install metasploit-framwerk gnome-terminal python3 python3-pip nc")
+
