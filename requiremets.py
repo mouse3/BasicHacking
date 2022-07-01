@@ -12,4 +12,6 @@ os.system("pip3 install mvt")
 os.system("pip install matplotlib")
 os.system("pip install speedtest-cli")
 os.system("sudo apt install metasploit-framwerk gnome-terminal python3 python3-pip nc")
-
+os.system("wget https://img.wonderhowto.com/img/60/22/63628008538670/0/hack-radio-frequencies-hijacking-fm-radio-with-raspberry-pi-wire.w1456.jpg")
+os.system("apt-get install make libsndfile1-dev")
+os.system("sudo apt install macchanger")
