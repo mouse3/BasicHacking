@@ -404,8 +404,6 @@ def checkSPY():
                 print("Ctrl+C to exit")
                 time.sleep(100000000000000)
 def sniffer():
-    os.system("iptables -I FORWARD -k NFQUEUE --queue-num 0")
-    os.system("python arp_spoofer.py")
     def sniff(interface):
         scapy.sniff(iface=interface, store=False, prn=process_sniffed_packet)
 
